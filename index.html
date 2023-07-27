@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boxicons CSS -->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/style.css">
+
+    <title>Validate Email Password</title>
+</head>
+<body>
+    <div class="container">
+        <header>Signup</header>
+        <form action="#">
+            <div class="field email-field">
+                <div class="input-field">
+                    <input type="email" name="" id="" placeholder="Enter Your Email" class="email">
+                </div>
+                <span class="errror email error">
+                    <i class='bx bx-error-circle error-icon'></i>
+                    <p class="error-text">Please enter a valid email</p>
+                </span>
+            </div>
+            <div class="field">
+                <div class="input-field create-password">
+                    <input type="password" name="" id="" placeholder="Create Password" class="password">
+                    <i class='bx bx-hide show-hide'></i>
+                </div>
+                <span class="error Password-error">
+                    <i class='bx bx-error-circle error-icon'></i>
+                    <p class="error-text">Please enter atleast 8 charaters</p>
+                </span>
+            </div>
+            <div class="field confirm-password">
+                <div class="input-field ">
+                    <input type="password" name="" id="" placeholder="Confirm Password" class="cpass">
+                    <i class='bx bx-hide show-hide'></i>
+                </div>
+                <span class="error cPassword-error">
+                    <i class='bx bx-error-circle error-icon'></i>
+                    <p class="error-text">Password Didnt Match</p>
+                </span>
+            </div>
+            <div class="input-field button">
+                <input type="submit" value="Submit Now">
+            </div>
+        </form>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+</html>
